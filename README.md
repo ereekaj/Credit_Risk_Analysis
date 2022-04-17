@@ -2,6 +2,8 @@
 
 ## Overview of the analysis: 
 
+The purpose of this project is to employ different maching learning techniques to train and evaluate models with unbalanced classes. Using the credit card credit dataset from LendingClub, I oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Then, I used a combo approach of over- and undersampling using the SMOTEENN algorithm. Lastly, I compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
+
 ## Results: 
 * **Naive Random Oversampling results**: The balanced accuracy test it 64%, the precision for the high_risk has a very at 1% and the recall is 66%.
 
